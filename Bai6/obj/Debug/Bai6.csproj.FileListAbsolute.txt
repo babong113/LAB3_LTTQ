@@ -1,0 +1,10 @@
+C:\Users\Acer\source\repos\LAB3\Bai6\bin\Debug\Bai6.exe.config
+C:\Users\Acer\source\repos\LAB3\Bai6\bin\Debug\Bai6.exe
+C:\Users\Acer\source\repos\LAB3\Bai6\bin\Debug\Bai6.pdb
+C:\Users\Acer\source\repos\LAB3\Bai6\obj\Debug\Bai6.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\LAB3\Bai6\obj\Debug\Bai6.Form1.resources
+C:\Users\Acer\source\repos\LAB3\Bai6\obj\Debug\Bai6.Properties.Resources.resources
+C:\Users\Acer\source\repos\LAB3\Bai6\obj\Debug\Bai6.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\LAB3\Bai6\obj\Debug\Bai6.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\LAB3\Bai6\obj\Debug\Bai6.exe
+C:\Users\Acer\source\repos\LAB3\Bai6\obj\Debug\Bai6.pdb
