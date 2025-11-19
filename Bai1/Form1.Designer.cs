@@ -28,56 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnOpen = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // flowLayoutPanel1
+            // btnOpen
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(34, 22);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 141);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.btnOpen.Location = new System.Drawing.Point(487, 83);
+            this.btnOpen.Name = "btnOpen";
+            this.btnOpen.Size = new System.Drawing.Size(75, 49);
+            this.btnOpen.TabIndex = 0;
+            this.btnOpen.Text = "Open";
+            this.btnOpen.UseVisualStyleBackColor = true;
+            this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
-            // button1
+            // listView1
             // 
-            this.button1.Location = new System.Drawing.Point(521, 158);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 34);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "TẠO FORM CON";
-            this.button1.UseVisualStyleBackColor = true;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(94, 54);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(236, 223);
+            this.listView1.TabIndex = 1;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
-            // button2
+            // btnClose
             // 
-            this.button2.Location = new System.Drawing.Point(521, 234);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 35);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "XÓA FORM CON";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnClose.Location = new System.Drawing.Point(487, 173);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 54);
+            this.btnClose.TabIndex = 2;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.btnOpen);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnOpen;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button btnClose;
     }
 }
-

@@ -15,16 +15,37 @@ namespace Bai1
         public Form1()
         {
             InitializeComponent();
-           
+            listView1.View = View.Details;
+            listView1.Columns.Add("Các hoạt động", 400);
         }
-        private void Form1_Load(object sender, EventArgs e) { MessageBox.Show("Load"); }
-        private void Form1_Activated(object sender, EventArgs e) { MessageBox.Show("Activated"); }
-        private void Form1_Deactivate(object sender, EventArgs e) { MessageBox.Show("Deactivated"); }
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e) { MessageBox.Show("FormClosing"); }
-        private void Form1_FormClosed(object sender, FormClosedEventArgs e) { MessageBox.Show("FormClosed"); }
-        private void Form1_Resize(object sender, EventArgs e) { MessageBox.Show("Resize"); }
-        private void Form1_Click(object sender, EventArgs e) { MessageBox.Show("Click"); }
-        private void Form1_GotFocus(object sender, EventArgs e) { MessageBox.Show("GotFocus"); }
-        
+        private Form2 f2;
+        //nút tắt 
+        private void btnOpen_Click(object sender, EventArgs e)
+        {
+            f2 = new Form2(this);    // truyền Form1 vào Form2
+            f2.Show();
+        }
+        public void AddLog(string msg)
+        {
+            listView1.Items.Add(msg);
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            if (f2 != null && !f2.IsDisposed)
+            {
+                f2.Close();   // tắt form 2
+                AddLog("Form2 closed by Form1 button");
+            }
+            else
+            {
+                MessageBox.Show("Form 2 đang không mở!");
+            }
+        }
     }
 }

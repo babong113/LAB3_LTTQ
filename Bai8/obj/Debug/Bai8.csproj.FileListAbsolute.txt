@@ -1,0 +1,11 @@
+C:\Users\Acer\source\repos\LAB3\Bai8\bin\Debug\Bai8.exe.config
+C:\Users\Acer\source\repos\LAB3\Bai8\bin\Debug\Bai8.exe
+C:\Users\Acer\source\repos\LAB3\Bai8\bin\Debug\Bai8.pdb
+C:\Users\Acer\source\repos\LAB3\Bai8\obj\Debug\Bai8.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\LAB3\Bai8\obj\Debug\Bai8.FQLTK.resources
+C:\Users\Acer\source\repos\LAB3\Bai8\obj\Debug\Bai8.Properties.Resources.resources
+C:\Users\Acer\source\repos\LAB3\Bai8\obj\Debug\Bai8.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\LAB3\Bai8\obj\Debug\Bai8.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\LAB3\Bai8\obj\Debug\Bai8.exe
+C:\Users\Acer\source\repos\LAB3\Bai8\obj\Debug\Bai8.pdb
+C:\Users\Acer\source\repos\LAB3\Bai8\obj\Debug\Bai8.exe.config

@@ -1,0 +1,11 @@
+C:\Users\Acer\source\repos\LAB3\Bai9\bin\Debug\Bai9.exe.config
+C:\Users\Acer\source\repos\LAB3\Bai9\bin\Debug\Bai9.exe
+C:\Users\Acer\source\repos\LAB3\Bai9\bin\Debug\Bai9.pdb
+C:\Users\Acer\source\repos\LAB3\Bai9\obj\Debug\Bai9.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\LAB3\Bai9\obj\Debug\Bai9.Form1.resources
+C:\Users\Acer\source\repos\LAB3\Bai9\obj\Debug\Bai9.Properties.Resources.resources
+C:\Users\Acer\source\repos\LAB3\Bai9\obj\Debug\Bai9.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\LAB3\Bai9\obj\Debug\Bai9.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\LAB3\Bai9\obj\Debug\Bai9.exe
+C:\Users\Acer\source\repos\LAB3\Bai9\obj\Debug\Bai9.pdb
+C:\Users\Acer\source\repos\LAB3\Bai9\obj\Debug\Bai9.exe.config
