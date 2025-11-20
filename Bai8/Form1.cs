@@ -64,26 +64,6 @@ namespace Bai8
         }
 
         //
-        private void tbSTK_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbTen_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbDiaChi_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbSoTien_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Add_Click(object sender, EventArgs e)
         {
             if (!KiemTraNhap())

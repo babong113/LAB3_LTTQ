@@ -47,11 +47,6 @@ namespace Bai7
         }
 
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         //Nút chọn
         private void btn_Choose_Click(object sender, EventArgs e)
         {

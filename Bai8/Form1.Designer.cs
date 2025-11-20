@@ -112,7 +112,6 @@
             this.tbSTK.Size = new System.Drawing.Size(384, 26);
             this.tbSTK.TabIndex = 5;
             this.tbSTK.Text = " ";
-            this.tbSTK.TextChanged += new System.EventHandler(this.tbSTK_TextChanged);
             // 
             // tbTen
             // 
@@ -122,7 +121,6 @@
             this.tbTen.Name = "tbTen";
             this.tbTen.Size = new System.Drawing.Size(384, 26);
             this.tbTen.TabIndex = 6;
-            this.tbTen.TextChanged += new System.EventHandler(this.tbTen_TextChanged);
             // 
             // tbDiaChi
             // 
@@ -132,7 +130,6 @@
             this.tbDiaChi.Name = "tbDiaChi";
             this.tbDiaChi.Size = new System.Drawing.Size(384, 26);
             this.tbDiaChi.TabIndex = 7;
-            this.tbDiaChi.TextChanged += new System.EventHandler(this.tbDiaChi_TextChanged);
             // 
             // tbSoTien
             // 
@@ -142,7 +139,6 @@
             this.tbSoTien.Name = "tbSoTien";
             this.tbSoTien.Size = new System.Drawing.Size(384, 26);
             this.tbSoTien.TabIndex = 8;
-            this.tbSoTien.TextChanged += new System.EventHandler(this.tbSoTien_TextChanged);
             // 
             // Add
             // 
