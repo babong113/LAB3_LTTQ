@@ -22,7 +22,7 @@ namespace Bai9
         //nút check nhập thông tin
         private bool CheckTB()
         {
-            if(tbMaSV.Text==null ||tbHoTen.Text==null||cbChuyenNganh.Text.Trim()==null)
+            if(tbMaSV.Text=="" ||tbHoTen.Text==""||cbChuyenNganh.Text.Trim()=="")
                 return false;
             return true;
         }
@@ -44,9 +44,15 @@ namespace Bai9
             {
                 MessageBox.Show("Vui lòng chọn giới tính!");
                 return;
-            } 
-            
-            int somonhoc=listBox2.Items.Count;
+            }
+
+            if (listBox2.Items.Count == 0)
+            {
+                MessageBox.Show("Vui lòng chọn ít nhất 1 môn học!");
+                return;
+            }
+
+            int somonhoc =listBox2.Items.Count;
             dataGridView1.Rows.Add(
                 tbMaSV.Text, tbHoTen.Text, cbChuyenNganh.Text, gt, somonhoc);
             MessageBox.Show("Lưu thành công!");
