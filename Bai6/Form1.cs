@@ -20,15 +20,6 @@ namespace Bai6
         string dau = "";
         String sau= "";
         string MS = "";
-        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         // Số 0
         private void button27_Click(object sender, EventArgs e)

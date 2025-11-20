@@ -8,3 +8,4 @@ C:\Users\Acer\source\repos\LAB3\Bai5\obj\Debug\Bai5.csproj.GenerateResource.cach
 C:\Users\Acer\source\repos\LAB3\Bai5\obj\Debug\Bai5.csproj.CoreCompileInputs.cache
 C:\Users\Acer\source\repos\LAB3\Bai5\obj\Debug\Bai5.exe
 C:\Users\Acer\source\repos\LAB3\Bai5\obj\Debug\Bai5.pdb
+C:\Users\Acer\source\repos\LAB3\Bai5\obj\Debug\Bai5.exe.config

@@ -17,6 +17,8 @@ namespace Bai5
             InitializeComponent();
         }
 
+
+        //Nút cộng 
         private void button1_Click(object sender, EventArgs e)
         {
             double n1= double.Parse(textBox1.Text);
@@ -25,11 +27,8 @@ namespace Bai5
             textBox3.Text = sum.ToString();
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
 
-        }
-
+        //Nút trừ 
         private void button2_Click(object sender, EventArgs e)
         {
             double n1 = double.Parse(textBox1.Text);
@@ -38,6 +37,7 @@ namespace Bai5
             textBox3.Text = sub.ToString();
         }
 
+        //nút nhân 
         private void button4_Click(object sender, EventArgs e)
         {
             double n1 = double.Parse(textBox1.Text);
@@ -46,20 +46,23 @@ namespace Bai5
             textBox3.Text = mul.ToString();
         }
 
+        //nút chia 
         private void button3_Click(object sender, EventArgs e)
         {
 
             double n1 = double.Parse(textBox1.Text);
             double n2 = double.Parse(textBox2.Text);
+            if(n2==0)
+            {
+                MessageBox.Show("Mẫu số không được bằng 0 vui lòng nhập lại number 2");
+                    return;
+            }    
             double dev = n1 / n2;
             textBox3.Text = dev.ToString();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
 
+        //Phần Xử lí các kí tự chữ không được nhập
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             TextBox tb = sender as TextBox;

@@ -43,8 +43,8 @@ namespace Bai2
                          x, y);
         }
 
-        //paint click gọi lại hàm paint ở trên
 
+        //paint click gọi lại hàm paint ở trên
         private void btnPaint_Click(object sender, EventArgs e)
         {
             this.Invalidate();

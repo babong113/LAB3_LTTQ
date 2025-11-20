@@ -47,5 +47,10 @@ namespace Bai1
                 MessageBox.Show("Form 2 đang không mở!");
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

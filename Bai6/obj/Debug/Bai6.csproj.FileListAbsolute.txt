@@ -8,3 +8,4 @@ C:\Users\Acer\source\repos\LAB3\Bai6\obj\Debug\Bai6.csproj.GenerateResource.cach
 C:\Users\Acer\source\repos\LAB3\Bai6\obj\Debug\Bai6.csproj.CoreCompileInputs.cache
 C:\Users\Acer\source\repos\LAB3\Bai6\obj\Debug\Bai6.exe
 C:\Users\Acer\source\repos\LAB3\Bai6\obj\Debug\Bai6.pdb
+C:\Users\Acer\source\repos\LAB3\Bai6\obj\Debug\Bai6.exe.config
